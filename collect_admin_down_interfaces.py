@@ -1,3 +1,5 @@
+#this python code is to telnet on cisco routers and make "show ip interface brief | in admin" and parse the output to get the admin down
+# GigabitEthernet and Ethernet interfaces"
 import re
 from netmiko import ConnectHandler
 from my_ccie_routers import P1, P2, P3, P4, PE1, PE2
